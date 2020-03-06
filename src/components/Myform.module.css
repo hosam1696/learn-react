@@ -1,0 +1,26 @@
+.myform {
+    padding: 10px;
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 0 12px #ccc;
+}
+
+.myform label {
+    padding: 6px;
+}
+
+.myform button[type="submit"] {
+    display: block;
+    width: 80%;
+    margin: 16px auto;
+    border-radius: 8px;
+    background-color: #3d9cf2;
+    color: #eeeeee;
+    height: 40px;
+    border: none;
+}
+.myform button[type="submit"]:hover {
+    cursor: pointer;
+}
