@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import MyRegularComponent from "./MyRegularComponent";
 import MyPureComponent from "./MyPureComponent";
+import MemoComponent from "./MemoComponnet";
 interface Props {
 }
 
@@ -36,6 +37,7 @@ class ParentComponent extends Component<Props, States> {
                 <h2>My Parent Component</h2>
                 <MyPureComponent name={this.state.name}/>
                 <MyRegularComponent name={this.state.name}/>
+                <MemoComponent name={this.state.name}/>
             </React.Fragment>
         )
     }

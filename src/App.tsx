@@ -7,6 +7,7 @@ import MyForm from "./components/MyForm";
 import LifeCycleA from "./components/LifeCycleA";
 import MyPureComponent from "./components/MyPureComponent";
 import ParentComponent from "./components/ParentComponent";
+import MemoComponent from "./components/MemoComponnet";
 
 function App() {
     return (
