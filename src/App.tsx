@@ -8,11 +8,15 @@ import LifeCycleA from "./components/LifeCycleA";
 import MyPureComponent from "./components/MyPureComponent";
 import ParentComponent from "./components/ParentComponent";
 import MemoComponent from "./components/MemoComponnet";
+import RefDemo from "./components/RefDemo";
+import FRInput from "./components/FRInput";
+import ErrorDemo from "./components/ErrorDemo";
+import ClickCounter from "./components/ClickCounter";
 
 function App() {
     return (
         <section className="App">
-            <ParentComponent/>
+            <ClickCounter/>
         </section>
     );
 }
