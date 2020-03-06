@@ -5,12 +5,14 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import MyForm from "./components/MyForm";
 import LifeCycleA from "./components/LifeCycleA";
+import MyPureComponent from "./components/MyPureComponent";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
     return (
-        <div className="App">
-            <LifeCycleA/>
-        </div>
+        <section className="App">
+            <ParentComponent/>
+        </section>
     );
 }
 
